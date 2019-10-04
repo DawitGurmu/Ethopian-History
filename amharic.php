@@ -27,8 +27,8 @@
       
       <div>
   
-      <h5 class="card-title text-center hedertext"> በ ኢትጰያ ይስሩ </h5>
-      <div class="embed-responsive embed-responsive-16by9" style="width: auto;">
+      <h5 class="card-title text-center hedertext"> በ ኢትዮጵያ ይስሩ </h5>
+      <div class="embed-responsive embed-responsive-16by9"  data-toggle="tooltip" data-placement="top" title="ምስል ከ ኢትዮጵያ ኢንቨስትመንት ዩቱብ ገጽ." style="width: auto;">
     <video controls>
       <source src="midia_file/eth.mp4" type="video/mp4">
     Your browser does not support the video.</video> </div>
@@ -160,7 +160,7 @@ $myData = file_get_contents("text_files/amharic_shorthistory.txt");
                 </li>
                 <li class="page-item"><a class="page-link" href="#video">Video</a></li>
                 <li class="page-item">
-                    <a class="page-link" href="#">Next</a>
+                    <a class="page-link" href="Amh_zena.php">Next</a>
                 </li>
             </ul>
         </nav>

@@ -25,7 +25,7 @@
           <a class="nav-link" href="amh_zena.php">ዜና</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="citys.php">ከተሞች</a>
+          <a class="nav-link" href="ketemoch.php">ከተሞች</a>
         </li>
         
         
@@ -33,7 +33,7 @@
           role="button" data-toggle="dropdown"> ከተሞች
               </a>-->
                <li class="nav-item">
-          <a class="nav-link" href="volunteer.php">በጎፈቃድ</a>
+          <a class="nav-link" href="begofekad.php">በጎፈቃድ</a>
         </li> 
         <li class="nav-item text-right">
             <a class="nav-link" href="comment.php">አስተያየት</a>

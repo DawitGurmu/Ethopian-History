@@ -30,7 +30,7 @@
       <div>
   
       <h5 class="card-title text-center hedertext"> invest in Ethiopia</h5>
-    <div class="embed-responsive embed-responsive-16by9" style="width: auto;">
+    <div class="embed-responsive embed-responsive-16by9"   data-toggle="tooltip" data-placement="top" title="Video by Official Ethiopian Investment Commission YouTube Channel." style="width: auto;">
     <video  src="midia_file/eth.mp4" controls>
     Your browser does not support the video.</video> </div>
      

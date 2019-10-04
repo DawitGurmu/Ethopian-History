@@ -128,13 +128,13 @@ $myData = file_get_contents("text_files/news_content_file/model_3_content.txt");
         <nav aria-label="...">
             <ul class="pagination">
                 <li class="page-item disabled">
-                <li class="page-item"><a class="page-link" href="index.php">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="amharic.php">Previous</a></li>
                 <li class="page-item " aria-current="page">
                     <a class="page-link" href="#">Top <span class="sr-only"></span></a>
                 </li>
              
                 <li class="page-item">
-                    <a class="page-link" href="biography.php">Next</a>
+                    <a class="page-link" href="Ketemoch.php">Next</a>
                 </li>
             </ul>
         </nav>
