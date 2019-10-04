@@ -28,10 +28,6 @@
           <a class="nav-link" href="ketemoch.php">ከተሞች</a>
         </li>
         
-        
-          <!---<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-          role="button" data-toggle="dropdown"> ከተሞች
-              </a>-->
                <li class="nav-item">
           <a class="nav-link" href="begofekad.php">በጎፈቃድ</a>
         </li> 
@@ -42,19 +38,9 @@
             <a class="nav-link" href="index.php"> English</a>
           </li>
         
-         
-          
+        
               </a>
-               <!--<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="citys.php">የፎቶ ማእክል</a>
-                  <div class="dropdown-divider">
-                    
-                  </div>
-                <a class="dropdown-item" href="#">አዲስ አበባ</a>
-              <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">ሐዋሳ</a>
-             <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">ጎንደር</a>-->
+              
               </div>      
         </li> 
       </ul>
