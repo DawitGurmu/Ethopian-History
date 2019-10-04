@@ -28,7 +28,7 @@
 <div class="card  bg-primary jam  col-xs-12 col-sm-12 col-md-12  col-lg-12"  >
 
 
-  <h1 class="display-3  text-center hedertext">Ethio Hsitory News </h1>
+  <h1 class="display-3  text-center hedertext">Ethio History News </h1>
 
   <p class="lead text-center hedertext"> This weeks headlines.</p>
   

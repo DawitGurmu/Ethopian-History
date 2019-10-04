@@ -54,11 +54,11 @@
     </div-->
     
     <label>Comment</label>
-  <textarea name="subject" class="form-control" rows="5"></textarea>
+  <textarea id="exampleInputEmail1" name="subject" class="form-control" rows="5" required></textarea>
       </div>
   
 	  </div>
-	  <button type="submit" class="btn btn-primary">Submit</button>
+	  <button type="submit" class="btn btn-primary" >Submit</button>
     
   </div>
 </div>
@@ -86,7 +86,7 @@ $res = mysqli_query($connection, $sql);
   
 
         	
-<a href="delcomment.php?id=<?php echo $r['id']; ?>">Del</a>   
+  
 		<!--td><//?php if(isset($r['status']) & !empty($r['status'])){echo $r['status'];}else{echo "NA";} ?></td--> 
         <!--td><a href="editcomment.php?id=<//?php echo $r['id']; ?>">Edit</a> <a href="commentstatus.php?id=<//?php echo $r['id']; 
         ?>&status=publish">App</a> <a href="commentstatus.php?id=<//?php echo $r['id']; ?>&status=draft">Dis</a-->

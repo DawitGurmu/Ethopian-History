@@ -79,7 +79,15 @@ $myData = file_get_contents("text_files/about_eth.txt");
 <div class= "card body bg-dark">
 <h5 class="card-title text-center hedertext">Ancient Ethiopia</h5>
                 <Div class="dropdown-divider"> </Div>
-                <p class="card-text text-center hedertext">with 2000 years of history Ethiopia is one of the ancient states in the world.</p>
+                <p class="card-text text-center hedertext">
+                <?php
+
+if (file_exists("text_files/Ancient_Ethiopia_hedlin.txt")){
+$myData = file_get_contents("text_files/Ancient_Ethiopia_hedlin.txt");
+}
+?>
+     <?php echo $myData;?>
+                </p>
                     <Div class="dropdown-divider"> </Div>
                 <a href="ancient_ethiopia.php" class="btn btn-primary">Vist page </a>
 </div>
@@ -89,9 +97,15 @@ $myData = file_get_contents("text_files/about_eth.txt");
    <div class= "card body bg-dark">
 <h5 class="card-title text-center hedertext ">Medieval Ethiopia</h5>
                 <Div class="dropdown-divider"> </Div>
-                <p class="card-text text-center hedertext">During medieval times the highlands Shoa,
-                    along the Rift Valley, and on to the southernmost regions culturally
-                    and economically incorporated into the Ethiopian state.</p>
+                <p class="card-text text-center hedertext">
+                <?php
+
+if (file_exists("text_files/Medieval_Ethiopia_hedlin.txt")){
+$myData = file_get_contents("text_files/Medieval_Ethiopia_hedlin.txt");
+}
+?>
+     <?php echo $myData;?>
+                   </p>
                     <Div class="dropdown-divider"> </Div>
                 <a href="Medieval_Ethiopian.php" class="btn btn-primary">Vist page </a>
 </div>
@@ -101,12 +115,15 @@ $myData = file_get_contents("text_files/about_eth.txt");
    <div class= "card body bg-dark">
                 <h5 class="card-title text-center hedertext"  id="midipage">Modern Ethiopia</h5>
                 <Div class="dropdown-divider"> </Div>
-                <p class="card-text text-center hedertext">Modern Ethiopia
-The Abyssinian empire started to fall apart in the eighteenth century as the Gondar kings began to weaken. 
-The last Gondar King, Yoas, was killed in 1769 and along with him went the importance of the monarch. 
-The reunification of Ethiopia began with the rule of Emperor Téwodros (1855-68). 
-He tried to abolish the feudal system and bring the fidelity of the Ethiopian church under the government.</p>
+                <p class="card-text text-center hedertext">
+<?php
 
+if (file_exists("text_files/modern_Ethiopia_hedlin.txt")){
+$myData = file_get_contents("text_files/Modern_Ethiopia_hedlin.txt");
+}
+?>
+     <?php echo $myData;?>
+     </p>
                     <Div class="dropdown-divider"> </Div>
                 <a href="Modern_Ethiopia.php" class="btn btn-primary">Vist page</a>
                 </div>
