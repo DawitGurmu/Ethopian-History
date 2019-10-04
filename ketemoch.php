@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<meta charset="UTF-8">
+<meta name="X-UA-Compatible" content="IE-chrome">
+<meta name="viewport" content="width = device-width,initial-scale = 1 ">
+<title>Ethiopian Hsitory </title>
+<!--compiled and minified CSS -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="include/index.css">
+<!--Jquery library-->
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<!-- Popper JS -->
+<script type="text/javascript" src="popper.min.js"></script>
+<!--compiled JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<body>
+    <header>
+        <?php require 'include/Amharicheder.php';?>
+    </header>
+    <br><br>
+    <br>
+    </header>
+    <div class="container">
+ <div class="row">
+ <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 " >
+    <div class="card jam2">
+    <h4 class="hedertext">  አዲስ አበባ </h4> 
+    <img src= "midia_file/56.jpg"class="card-img-top" width="340" height="200" alt="bird eye view of Addis ababa city">
+    <div>
+        
+    <?php
+
+if (file_exists("text_files/addis_ababa.tx")){
+$myData = file_get_contents("text_files/addis_ababa.tx");
+}
+ ?>
+    </div>
+    <p class="hedertext">
+    <?php echo $myData;?>
+    </p>
+        
+</div>
+    </div>
+    <div class="d-lg-none">
+        .
+</div>
+ <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 " >
+    <div class="card jam2">
+    <h4 class="hedertext">  ጎንደር </h4> 
+    <img src= "midia_file/gonder.jpg"class="card-img-top" width="340" height="200" alt="Fasilides' castle in Gonder">
+    <p class="hedertext">
+    <div>
+    <?php
+
+if (file_exists("text_files/gonder.tx")){
+$myData = file_get_contents("text_files/gonder.tx");
+}
+ ?>
+    </div>
+    <p class="hedertext">
+    <?php echo $myData;?>
+    </p>
+        
+</div>
+    </div>
+    <div class="d-lg-none">
+
+.
+
+</div>
+    <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" >
+    <div class="card jam2">
+    <h4 class="hedertext"> ሐዋሳ</h4> 
+    <img src= "midia_file/hawassa.png"class="card-img-top" width="340" height="200" alt="bird eye view of the beautiful hawasssa city ">
+   <div>
+   <?php
+
+if (file_exists("text_files/hawassa.tx")){
+$myData = file_get_contents("text_files/hawassa.tx");
+}
+ ?>
+    </div>
+    <p class="hedertext">
+    <?php echo $myData;?>
+    </p>
+   </div>
+</div>
+    </div>
+    </div>
+    </div>
+    <br/>
+    <div class="container">
+    <div class="row">
+ <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" >
+    <div class="card jam2">
+    <h4 class="hedertext"> ላሊበላ</h4> 
+    <img src= "midia_file/lalibela.jpg"class="card-img-top"  width="340" height="200" alt="the mezmerizing bete giyorgis in lalibel city">
+    <div >
+    <?php
+
+if (file_exists("text_files/lalibela.tx")){
+$myData = file_get_contents("text_files/lalibela.tx");
+}
+ ?>
+    </div>
+       <p class="hedertext">
+           <?php echo $myData;?>
+            </p>
+        
+</div>
+    </div>
+    <div class="d-lg-none">
+
+.
+
+</div>
+ <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" >
+    <div class="card jam2">
+    <h4 class="hedertext"> አክሱም</h4> 
+    <img src= "midia_file/axum.jpg"class="card-img-top" width="340" height="200" alt="centurys old obelisk in axum city ">
+    <div>
+    <?php
+
+if (file_exists("text_files/axum.tx")){
+$myData = file_get_contents("text_files/axum.tx");
+}
+ ?>
+    </div>
+    <p class="hedertext">
+    <?php echo $myData;?>
+    </p>
+        
+    </div>
+</div>
+<div class="d-lg-none">
+
+.
+
+</div>
+     <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" >
+    <div class="card jam2">
+    <h4 class="hedertext">ሐረር</h4> 
+    <img src= "midia_file/harar.jpg"class="card-img-top" width="340" height="200" alt="the main gate of harar city ">
+    <div >
+    <?php
+
+if (file_exists("text_files/harar.tx")){
+$myData = file_get_contents("text_files/harar.tx");
+}
+ ?>
+    </div>
+       <p class="hedertext">
+           <?php echo $myData;?>
+            </p>
+
+</div>
+</div>
+  
+    
+<!--
+    <div class="container">
+ 
+    <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 " >
+    <div class="card jam2">
+    <h4 class="hedertext"> jima</h4> 
+    <img src= ""class="card-img-top" alt="...">
+    <p class="hedertext">
+   
+    </p>
+        
+</div>
+    </div>
+   
+    <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 " >
+    <div class="card jam2">
+    <h4 class="hedertext">Arbaminch</h4> 
+    <img src= ""class="card-img-top" alt="...">
+    <p class="hedertext">
+   
+    </p>
+        
+</div>
+    </div>
+    ---->
+    <div class="d-lg-none">
+    <div class="container-fluid">
+        <nav aria-label="...">
+            <ul class="pagination">
+                <li class="page-item disabled">
+                <li class="page-item"><a class="page-link" href="Amh_zena.php">Previous</a></li>
+                <li class="page-item " aria-current="page">
+                    <a class="page-link" href="#">Top <span class="sr-only"></span></a>
+                </li>
+             
+                <li class="page-item">
+                    <a class="page-link" href="begofekad.php">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+    </div>
+     <div>
+
+    <div class="container-fluid">
+    <br/>
+<footer  class="d-lg-none">
+<?php require 'include/footer.php'; ?>
+</footer>
+</div>
