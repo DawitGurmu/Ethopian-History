@@ -9,7 +9,7 @@
     <title>Ethiopian Hsitory </title>
    <!--compiled and minified CSS -->
    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  
+   <link rel="stylesheet" type="text/css" href="include/index.css">
    <!--Jquery library-->
    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
    <!-- Popper JS -->
@@ -25,8 +25,8 @@ $myData = file_get_contents("text_files/fem.txt");
 
 <div class="container "> 
 
-    <div>
-        <h1>Famous people of Ethiopian</h1>
+    <div class="card article-text jam2" >
+        <h1 class=" hedertext">Famous people of Ethiopian</h1>
         
 <div class="dropdown-divider"></div>
         <br>
@@ -41,7 +41,7 @@ $myData = file_get_contents("text_files/fem.txt");
 <div class="dropdown-divider"></div>
 <div>
    
- <a href="Untitled-1.php" class="btn btn-dark">Go back to Biography  
+ <a href="biography.php" class="btn btn-dark">Go back to Biography  
  </a>
 </div>
 <br>

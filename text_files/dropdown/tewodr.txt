@@ -1,0 +1,8 @@
+  
+   <h4 class="hedertext"> Tewodros II Monarch</h4>
+ <p class="article-text">
+Tewodros II (Ge'ez: ቴዎድሮስ, baptized as Sahle Dingil; c. 1818 – April 13, 1868) was Emperor of Ethiopia from 1855 until his death in 1868.
+He was born Kassa Hailegiorgis (Ge'ez: ካሳ ኃይሉ; English: "restitution" and "His [or the] power"). His rule is often placed as the beginning
+of modern Ethiopia, ending the decentralized Zemene Mesafint (Era of the Princes).Tewodros II's origins were in the Era of the Princes, but 
+his ambitions were not those of the regional nobility.
+</p>

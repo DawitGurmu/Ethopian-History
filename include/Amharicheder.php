@@ -6,7 +6,7 @@
 <nav class= "navbar navbar-expand-md navbar-dark bg-dark text-white fixed-top">
   
     <!-- Brand -->
-    <a class="navbar-brand" href="amharic.php"><span id="topcard"  class="badge badge-success input-group-lg" href="Webpro.html">ETHISTORY</span></a>
+    <a class="navbar-brand" href="amharic.php"><span id="topcard"  class="badge badge-success input-group-lg" href="Webpro.html" data-toggle="tooltip" data-placement="top" title="ትልቅ ነበርን ትልቅም እንሆናልን!!">ETHISTORY</span></a>
 
   
     <!-- Toggler/collapsibe Button -->
@@ -35,7 +35,7 @@
             <a class="nav-link" href="comment.php">አስተያየት</a>
           </li>
         <li class="nav-item text-right">
-            <a class="nav-link" href="index.php"> English</a>
+            <a class="nav-link" href="index.php" data-toggle="tooltip" data-placement="top" title="ወደ እንግሊዘኛ ተርጉም"> English</a>
           </li>
         
         

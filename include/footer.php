@@ -12,7 +12,7 @@
   <li><a class="nav-link">
     
     <button type="button" class="btn btn-link text-white" data-toggle="modal" data-target="#exampleModalScrollable">
-    <img src="midia_file/developer.jpg" width="35" height="35"alt="" class="rounded-circle"> Developed by Dawit Wondimu</a> </li>
+    <img src="midia_file/developer.jpg" width="35" height="35"alt="" class="rounded-circle" data-toggle="tooltip" data-placement="top" title="Click to see Developer Message"> Developed by Dawit Wondimu</a> </li>
 </button>
 
 

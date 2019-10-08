@@ -16,7 +16,6 @@
    <!--compiled JavaScript -->
    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-
     <body>
         
     <header>
@@ -29,16 +28,111 @@
       <br>
         <main>    <div class="container">
 <div class="row">
-<div class="card  bg-primary jam  col-xs-6 col-sm-6 col-md-6  col-lg-12"  >
+<div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+<img src= "https://upload.wikimedia.org/wikipedia/commons/f/f4/T%C3%A9wodros_II_-_2.jpg"  class="rounded-circle" width="300" height="300"  alt="bird eye view of Addis ababa city">  
+<div class="card jam2">
+    <p class="article-text">
+    
+    <?php
 
+if (file_exists("text_files/dropdown/tewodr.txt")){
+$myData = file_get_contents("text_files/dropdown/tewodr.txt");
+}
+?>
+     <?php echo $myData;?>
+    </p>       
+     <a class="btn btn-link text-white" data-toggle="collapse" href="#tewodros" role="button" aria-expanded="false" aria-controls="collapseExample">
+Continue Reading   &#128315; 
+       
+</a>
+<div class="collapse " id="tewodros">
+  <div class="card card-body jam2">
+      <p class="article-text">
+      <?php
 
-  <h1 class="display-3  text-center hedertext">Ethio History</h1>
-
-  <p class="lead text-center hedertext"> Modern Ethiopia Coming Soon.</p>
-  
- </div>
- </div>
+if (file_exists("text_files/dropdown/tewodr2.txt")){
+$myData = file_get_contents("text_files/dropdown/tewodr2.txt");
+}
+?>
+     <?php echo $myData;?>
+  </p>
 </div>
+</div>
+    </p>
+</div>
+</div>
+<div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">   
+<img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWiX_e6rSJu1RUPQEco8GZccxOqAFiPZZkSZxS8QlifvdEzgVv"  class="rounded-circle" width="300" height="300"  alt="bird eye view of Addis ababa city"> 
+<div class="card jam2">
+  
+    <p class="article-text">
+
+    <?php
+
+if (file_exists("text_files/dropdown/minilik.txt")){
+$myData = file_get_contents("text_files/dropdown/minilik.txt");
+}
+?>
+     <?php echo $myData;?>
+ <br><br>
+ <a class="btn btn-link" data-toggle="collapse" href="#menelik" role="button" aria-expanded="false" aria-controls="collapseExample ">
+ Continue Reading   &#128315;
+        
+</a>
+<div class="collapse " id="menelik">
+  <div class="card card-body jam2">
+      <p class="article-text">
+   
+      <?php
+
+if (file_exists("text_files/dropdown/minilik2.txt")){
+$myData = file_get_contents("text_files/dropdown/minilik2.txt");
+}
+?>
+     <?php echo $myData;?>
+
+
+    </p>
+</div>
+</div>
+</div>
+</div>
+<div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 " >
+<img src= "midia_file/hslase.jpg"  class="rounded-circle" width="300" height="300"  alt="bird eye view of Addis ababa city">
+<div class="card jam2">
+   <p class="article-text">
+
+   <?php
+
+if (file_exists("text_files/dropdown/Hslase.txt")){
+$myData = file_get_contents("text_files/dropdown/Hslase.txt");
+}
+?>
+     <?php echo $myData;?><br><br>
+<a class="btn btn-link" data-toggle="collapse" href="#hailes" role="button" aria-expanded="false" aria-controls="collapseExample ">
+Continue Reading   &#128315;
+
+        
+</a>
+<div class="collapse " id="hailes">
+  <div class="card card-body jam2">
+      <p class="article-text">
+ 
+      <?php
+
+if (file_exists("text_files/dropdown/hslase2.txt")){
+$myData = file_get_contents("text_files/dropdown/hslase2.txt");
+}
+?>
+     <?php echo $myData;?>
+</p>
+    <div> 
+</div>
+<div> 
+</div>
+ </div>
+ </div>
+
 </main>
       <br>
       <br>

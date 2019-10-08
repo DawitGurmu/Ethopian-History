@@ -1,0 +1,8 @@
+<h4 class="hedertext"> Haile Selassie I 
+Monarch</h4>
+<p class="article-text">
+Haile Selassie I, born Tafari Makonnen Woldemikael, was Ethiopia's regent from 1916 to 1930 
+and Emperor of Ethiopia from 1930 to 1974. He was the heir to a dynasty that traced its 
+origins by tradition from King Solomon and Queen Makeda, Empress of Axum, known in the Abrahamic
+ tradition as the Queen of Sheba.Haile Selassie is a defining figure in both
+ </p>
